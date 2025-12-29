@@ -6,19 +6,20 @@ import Works from "./components/Works";
 import OurLife from "./components/OurLife";
 import MajorServices from "./components/MajorServices";
 import KeyClients from "./components/KeyClients";
+import CircularMotion from "./components/CircularMotion";
+
 
 const App = () => {
   useLenis();
 
   return (
-    <main className="w-full relative">
+    <main className="w-full relative bg-[#101010]">
     <HeroSection />
     <Works/>
     <OurLife/>
     <MajorServices/>
     <KeyClients/>
-
-    <div className="w-full h-screen"></div>
+    <CircularMotion/>
     </main>
   );
 };
